@@ -2,15 +2,15 @@
 
 ## 📌 Project Overview
 
-This project is a part of the **CodSoft Data Science Internship**.
+This project is part of the **CodSoft Data Science Internship**.
 
 The objective of this project is to build a Machine Learning model that classifies Iris flowers into three different species based on their sepal and petal measurements.
 
 The three species are:
 
-- Iris Setosa
-- Iris Versicolor
-- Iris Virginica
+* Iris Setosa
+* Iris Versicolor
+* Iris Virginica
 
 ---
 
@@ -22,30 +22,30 @@ To develop a classification model that accurately predicts the species of an Iri
 
 ## 📂 Dataset
 
-The Iris dataset contains 150 flower samples with the following features:
+The Iris dataset contains **150 flower samples** with the following features:
 
-- Sepal Length
-- Sepal Width
-- Petal Length
-- Petal Width
-- Species (Target)
+* Sepal Length
+* Sepal Width
+* Petal Length
+* Petal Width
+* Species (Target)
 
 ---
 
 ## 🛠️ Technologies Used
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
 
 ---
 
 ## 🤖 Machine Learning Algorithm
 
-- Random Forest Classifier
+* **Random Forest Classifier**
 
 ---
 
@@ -66,49 +66,91 @@ The Iris dataset contains 150 flower samples with the following features:
 
 ## 📈 Visualizations
 
-- Species Count Plot
-- Pair Plot
-- Correlation Heatmap
-- Feature Distribution Histograms
-- Confusion Matrix
+The project includes the following visualizations:
+
+* Species Count Plot
+* Pair Plot
+* Correlation Heatmap
+* Feature Distribution Histograms
+* Confusion Matrix
+
+All generated visualizations are available in the `outputs/` folder.
 
 ---
 
 ## 📌 Results
 
-- Successfully classified Iris flowers into three species.
-- Achieved high classification accuracy using the Random Forest Classifier.
-- Evaluated the model using Accuracy Score, Precision, Recall, and F1-Score.
+The Random Forest Classifier successfully classified the Iris flower species.
+
+The model was evaluated using:
+
+* Accuracy Score
+* Precision
+* Recall
+* F1-Score
+* Confusion Matrix
+* Classification Report
+
+The detailed classification results are available in the `results/` folder.
 
 ---
 
 ## 📁 Project Structure
 
-```
-Task3_Iris/
+```text
+Flower_Classification/
 │
-├── Iris.csv
-├── task3.py
+├── data/
+│   └── Iris.csv
+│
+├── src/
+│   └── iris_classification.py
+│
+├── outputs/
+│   ├── confusion_matrix.png
+│   ├── correlation_heatmap.png
+│   ├── petal_length.png
+│   ├── petal_width.png
+│   ├── sepal_length.png
+│   ├── sepal_width.png
+│   ├── species_count.png
+│   └── species_pairplot.png
+│
+├── results/
+│   └── output.txt
+│
 ├── README.md
-└── screenshots/
+├── requirements.txt
+├── .gitignore
+└── LICENSE
 ```
 
 ---
 
 ## 🚀 How to Run
 
-1. Download or clone this repository.
-
-2. Install the required libraries:
+### 1. Clone the repository
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
+git clone https://github.com/nayumakthar88/Flower_Classification.git
 ```
 
-3. Run the project:
+### 2. Navigate to the project folder
 
 ```bash
-python task3.py
+cd Flower_Classification
+```
+
+### 3. Install the required libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the project
+
+```bash
+python src/iris_classification.py
 ```
 
 ---
@@ -117,13 +159,14 @@ python task3.py
 
 Through this project, I learned:
 
-- Data preprocessing
-- Data visualization
-- Classification algorithms
-- Model training and testing
-- Model evaluation
-- Working with Scikit-learn
-- Machine Learning workflow
+* Data preprocessing
+* Data exploration
+* Data visualization
+* Classification algorithms
+* Model training and testing
+* Model evaluation
+* Working with Scikit-learn
+* Understanding the Machine Learning workflow
 
 ---
 
@@ -131,9 +174,10 @@ Through this project, I learned:
 
 **CodSoft Data Science Internship**
 
-**Task 3 – Iris Flower Classification**
+**Iris Flower Classification**
 
 ---
+
 
 ## 👨‍💻 Author
 
